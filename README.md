@@ -164,8 +164,35 @@ El proyecto incluye una interfaz web (IDE.html) que permite:
 - ✅ Resaltado de Errores: Subraya las líneas con problemas
 - ✅ Máquina de Turing: Procesamiento de cadenas
 - ✅ Visualizar los resultados de cada análisis
+  
+## Estructura del Proyecto
 
-- 
+```
+proyecto/
+│
+├── app.py          # Servidor web Flask
+├── lexer.py        # Analizador léxico
+├── parser.py       # Analizador sintáctico
+├── turing.py       # Máquina de Turing
+│
+├── templates/      # Plantillas HTML
+│   └── index.html
+│
+└── static/         # Archivos estáticos
+    ├── css/
+    ├── img/
+    └── js/
+```
+
+Esta estructura organiza el proyecto de la siguiente manera:
+
+- *app.py*: Contiene la configuración y rutas del servidor web Flask
+- *lexer.py*: Implementa el analizador léxico para el procesamiento de tokens
+- *parser.py*: Implementa el analizador sintáctico para validar la estructura
+- *turing.py*: Contiene la implementación de la máquina de Turing
+- *templates/*: Directorio con las plantillas HTML para la interfaz web
+- *static/*: Directorio para archivos estáticos como CSS, imágenes y JavaScript
+
  ## evidandica visual
 
 incio de la paguina
