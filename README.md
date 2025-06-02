@@ -1,6 +1,6 @@
-##IDE WEB
+## IDE WEB
 
-#Analiszador Léxico, Sintáctico y Máquina de Turing 
+## Analiszador Léxico, Sintáctico y Máquina de Turing 
  
  ## Información del Estudiante
 - **Nombre del Estudiante**: [Arias Hernandez Pablo Armando]
