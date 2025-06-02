@@ -101,9 +101,9 @@ xyz          # Error: no es una asignación
 = 100         # Error: falta identificador
 ```
 
-### Máquina de Turing
+## Máquina de Turing
 
-## Descripción 
+### Descripción 
 La implementación de la máquina de Turing determina si una cadena proviene de un humano o un robot al evaluar su último carácter.
 
 #### Características Principales:
