@@ -1,9 +1,19 @@
-﻿## Información del Estudiante
+##IDE WEB
+
+#Analiszador Léxico, Sintáctico y Máquina de Turing 
+ 
+ ## Información del Estudiante
 - **Nombre del Estudiante**: [Arias Hernandez Pablo Armando]
 - **Materia**: [Lenguaje y Automatas I]
 - **Profesor**: [Kevin David Molina Gomez]
 - **carrera**: [Ingeneria en Sistemas Computacionales]
 - **Fecha**: [1 de junio del 2025]
+
+## resumen del proyecto
+Este poryecto implementa dos analizadores y un Método:
+1.- analizador Léxico
+2.- analizador Sintáctico
+3.- una Máquina de Turing que ayuda a detectar humano o robot
 
 ## Instrucciones para Ejecutar el Proyecto
 
