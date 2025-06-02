@@ -62,7 +62,7 @@ El analizador léxico reconoce los siguientes elementos:
    - Nombres de variables y funciones
    - Deben comenzar con una letra
 
-### Gramática
+### El analizador sintáctico
 
 El analizador sintáctico verifica:
 
@@ -101,7 +101,54 @@ xyz          # Error: no es una asignación
 = 100         # Error: falta identificador
 ```
 
-## Máquina de Turing
+### Máquina de Turing
+
+## Descripción 
+La implementación de la máquina de Turing determina si una cadena proviene de un humano o un robot al evaluar su último carácter.
+
+#### Características Principales:
+1. *Estados*:
+   - Estado inicial: q0
+   - Estado final: qf
+
+2. *Alfabeto de entrada*:
+   - a: representa características de humano
+   - b: representa características de robot
+   - _: representa el fin de la cadena
+
+3. *Transiciones*:
+   - (q0, a) → (q0, X, R): Reemplaza 'a' por 'X' y mueve a la derecha
+   - (q0, b) → (q0, Y, R): Reemplaza 'b' por 'Y' y mueve a la derecha
+   - (q0, _) → (qf, _, N): Al encontrar espacio en blanco, termina
+
+#### Funcionamiento:
+1. La máquina lee la cadena de izquierda a derecha
+2. Reemplaza cada 'a' por 'X' y cada 'b' por 'Y'
+3. La última letra procesada determina el resultado:
+   - Si la última letra es 'X' (originalmente 'a'): HUMANO
+   - Si la última letra es 'Y' (originalmente 'b'): ROBOT
+
+
+#### Ejemplos de Uso:
+
+*Entradas Válidas*:
+```
+aaa -> HUMANO
+bbb -> ROBOT
+aba -> HUMANO
+bab -> ROBOT
+```
+
+*Entradas No Válidas*:
+```
+- Cadenas vacías
+- Caracteres diferentes a 'a' o 'b'
+- Espacios en medio de la cadena
+```
+#### Resultados Posibles:
+1. "Resultado: HUMANO" - cuando la última letra procesada es 'a'
+2. "Resultado: ROBOT" - cuando la última letra procesada es 'b'
+3. "No se pudo determinar si es humano o robot" - cuando hay un error o la cadena está vacía
 
 ### Características del IDE Web
 - Editor con números de línea
