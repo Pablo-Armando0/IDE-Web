@@ -107,25 +107,26 @@ El proyecto incluye una interfaz web (IDE.html) que permite:
 - ✅ Resaltado de Errores: Subraya las líneas con problemas
 - ✅ Máquina de Turing: Procesamiento de cadenas
 - ✅ Visualizar los resultados de cada análisis
- 
+
+- 
  ## evidandica visual
 
 incio de la paguina
-inicio.jpg
+[![photo-5035172470033854011-y.jpg](https://i.postimg.cc/mDZD7MMV/photo-5035172470033854011-y.jpg)](https://postimg.cc/zLM8ryxR)
 
 ejecucion del lexico
-lexico.png
+[![photo-5035172470033854007-y.jpg](https://i.postimg.cc/85gdGZ2c/photo-5035172470033854007-y.jpg)](https://postimg.cc/5HpQqSNW)
 
 ejecucion del sintactico 
-sintactico.jpg
+[![photo-5035172470033854008-y.jpg](https://i.postimg.cc/fyyYfy1n/photo-5035172470033854008-y.jpg)](https://postimg.cc/ctqKsxsX)
 
 ejecucion de la maquina de turing
 deteccion por humano
-turing.jpg
+[![photo-5035172470033854010-y.jpg](https://i.postimg.cc/52G6djh2/photo-5035172470033854010-y.jpg)](https://postimg.cc/FYy90FFM)
 
 
 con robot
-turing2.jpg
+[![photo-5035172470033854012-y.jpg](https://i.postimg.cc/rmd66wLM/photo-5035172470033854012-y.jpg)](https://postimg.cc/tZHvWyTM)
 
 no detectable
-turing3.jpg
+[![photo-5035172470033854009-y.jpg](https://i.postimg.cc/pd2Krm0Y/photo-5035172470033854009-y.jpg)](https://postimg.cc/VJVJHkPd)
